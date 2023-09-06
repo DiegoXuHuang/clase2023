@@ -11,3 +11,5 @@
 
 # Coverage
 [![Test Coverage](https://api.codeclimate.com/v1/badges/b2f14f63809c9ae676f1/test_coverage)](https://codeclimate.com/github/DiegoXuHuang/clase2023/test_coverage)
+
+## TODO agregar bagdges factasticos
