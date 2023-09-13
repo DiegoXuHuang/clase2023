@@ -1,8 +1,21 @@
 import unittest
-from app.multi import multiplicacion
-class TestMulti(unittest.testCase):
+
+from app.multi import suma, resta, multi, division
+
+
+class TestApp(unittest.TestCase):
+
+    def test_suma(self):
+        self.assertEqual(suma(1, 3), 4)
+
+    def test_resta(self):
+        self.assertEqual(resta(3, 1), 2)
+
     def test_multi(self):
-        self.assertEqual(multiplicacion(2,3),6)
+        self.assertEqual(multi(2, 3), 6)
+
+    def test_division(self):
+        self.assertEqual(division(6, 2), 3)
 
 
 if __name__ == '__main__':
